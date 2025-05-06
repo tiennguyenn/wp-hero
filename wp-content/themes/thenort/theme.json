@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true
+  },
+  "styles": {
+    "color": {
+      "text": "#000000",
+      "background": "#f5f1ea"
+    }
+  },
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header",
+      "title": "Header"
+    }
+  ],
+  "customTemplates": [
+    {
+      "name": "content-canvas",
+      "title": "Content Canvas",
+      "postTypes": [
+        "page",
+        "post"
+      ]
+    }
+  ]
+}

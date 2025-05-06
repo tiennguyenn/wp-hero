@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<!-- This file is the PHP CodeSniffer configuration file for the WordPress plugin. -->
+
+<ruleset>
+  <file>**/*.php</file>
+
+  <!-- Include the WordPress coding standards. -->
+  <rule ref="WordPress"/>
+</ruleset>
