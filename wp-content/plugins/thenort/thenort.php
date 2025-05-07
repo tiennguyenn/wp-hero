@@ -25,9 +25,10 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function create_block_copyright_date_block_init() {
-	register_block_type( __DIR__ . '/build/blocks/block4' );
-	register_block_type( __DIR__ . '/build/blocks/block3' );
-	register_block_type( __DIR__ . '/build/blocks/block2' );
+	register_block_type( __DIR__ . '/build/blocks/copyright-date-block' );
 	register_block_type( __DIR__ . '/build/blocks/block1' );
+	register_block_type( __DIR__ . '/build/blocks/block2' );
+	register_block_type( __DIR__ . '/build/blocks/block3' );
+	register_block_type( __DIR__ . '/build/blocks/block4' );
 }
 add_action( 'init', 'create_block_copyright_date_block_init' );
