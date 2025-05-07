@@ -1,0 +1,12 @@
+// const defaultConfig = require("@wordpress/scripts/config/webpack.config");
+
+// module.exports = {
+//   ...defaultConfig,
+//   entry: {
+//     index: "./src/index.js", // Change this to your actual entry point
+//   },
+//   output: {
+//     ...defaultConfig.output,
+//     filename: "[name].js", // Will generate: build/index.js, build/admin.js, etc.
+//   },
+// };
